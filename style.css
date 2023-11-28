@@ -86,7 +86,7 @@ body {
      margin-left:10px
 }
 hr {
-     height: 3px;
+    
      background-color: rgb(211, 146, 24);
      border-color: rgb(211, 146, 24);
 }
@@ -206,7 +206,7 @@ h2[id="agri"] {
 }
 
 img[id="construction"] {
-     margin: 0 20 400px 1000px
+     margin: 0 20 400px 1025px
 }
 
 h2[id="cons"] {
@@ -245,7 +245,8 @@ h2[id="re"] {
 }
 
 #agriculture:hover {
-     transform: scale(1.1)
+     transform: scale(1.1);
+
 }
 
 #construction:hover {
