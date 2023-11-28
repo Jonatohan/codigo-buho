@@ -138,7 +138,7 @@ fieldset[id="field"] {
 
 }
 button {
-     border:0;background-image:linear-gradient(150deg, orange, rgb(221, 221, 229), #00ddff);
+     border:0;background-image:linear-gradient(150deg, rgb(218, 189, 136), rgb(221, 221, 229), #a1d5de);
      border-radius: 8px;
      color:#fff;
      display:flex;
