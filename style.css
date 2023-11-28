@@ -130,15 +130,15 @@ div[id="form"] {
 }
 
 fieldset[id="field"] {
-     margin: 10px 1059px 15px 15px;
+     margin: 10px 10px 15px 15px;
      background-color: orange;
      border-radius: 15px;
      border: solid;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+     
 }
 button {
-     border:0;background-image:linear-gradient(150deg, rgb(218, 189, 136), rgb(221, 221, 229), #a1d5de);
+     border:0;background-image:linear-gradient(150deg, orange, rgb(221, 221, 229), #a9bcbe);
      border-radius: 8px;
      color:#fff;
      display:flex;
