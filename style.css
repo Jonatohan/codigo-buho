@@ -1,15 +1,17 @@
-* {
-     box-sizing: border-box;
-     scroll-behavior: smooth;
-}
+
 
 .container {
      margin: 0 auto;
      height: auto;
      width: auto;
      justify-content: space-between;
+     
 }
-
+body{
+     overflow: hidden;
+     margin:0;
+     padding:0;
+}
 h1 {
      text-align: center;
      padding: 27px 0 27px 0;
@@ -37,28 +39,25 @@ div[id="head-img"] {
 }
 
 img[id="drone1-img"] {
-     margin: 0 0 15px 200px;
+     margin: 0 0 15px 220px;
      height: 180px;
      width: 180;
-     filter: blur(1px);
      transform-origin: 50% 0%;
      animation: drone-img 15s ease-in-out infinite;
 }
 
-img[id="buho-img"] {
-     border: solid 10px silver;
-     margin: 30px 0 10px 45px;
+.buho-logo {
+     margin: 30px 0 10px 95px;
      width: 650px;
      height: fit-content;
-     box-shadow: 50px grey;
+     
 
 }
 
 img[id="drone2-img"] {
      height: 180px;
      width: 180px;
-     margin: auto 0 15px 45px;
-     filter: blur(3px);
+     margin: auto 0 15px 75px;
      transform-origin: 50% 0%;
      animation: drone2-img 15s ease-in-out infinite;
 }
@@ -139,7 +138,7 @@ fieldset[id="field"] {
 
 }
 button {
-     border:0;background-image:linear-gradient(150deg, orange, blue, #00ddff);
+     border:0;background-image:linear-gradient(150deg, orange, rgb(221, 221, 229), #00ddff);
      border-radius: 8px;
      color:#fff;
      display:flex;
